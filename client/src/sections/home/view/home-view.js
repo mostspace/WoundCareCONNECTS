@@ -1,15 +1,14 @@
-import React from 'react'
-import { 
-    Hero,
-    WoundCareManagement, 
-    GetToKnowUs, 
-    ServicesAndTreatments, 
-    WoundCareDressings, 
-    BenefitsOfOurProgram,
-} from '../sections/home'
-import styles from '../style'
+import styles from 'src/style'
 
-const Home = () => {
+import Hero from '../hero';
+import WoundCareManagement from '../woundcare-management';
+import GetToKnowUs from '../get-to-know-us';
+import ServicesAndTreatments from '../services-treatments';
+import WoundCareDressings from '../woundcare-dressings';
+import BenefitsOfOurProgram from '../benefits-of-our-program';
+
+export default function HomeView() {
+    
     return (
         <>
             <Hero/>  
@@ -23,7 +22,5 @@ const Home = () => {
                 </div>
             </div>
         </>
-    );
+    )
 }
-
-export default Home;

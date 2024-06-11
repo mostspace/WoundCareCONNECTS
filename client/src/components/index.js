@@ -1,5 +1,5 @@
-import Button from './Button'
-import TextCard from './TextCard'
+import Button from './button'
+import TextCard from './text-card'
 
 export {
     Button,

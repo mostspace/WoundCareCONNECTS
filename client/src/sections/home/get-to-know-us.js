@@ -1,7 +1,7 @@
 import React from 'react'
 import { getToKnowUs } from '../../assets'
 import styles, { layout } from '../../style'
-import Button from '../../components/Button'
+import Button from '../../components/button'
 
 const GetToKnowUs = () => {
   return (

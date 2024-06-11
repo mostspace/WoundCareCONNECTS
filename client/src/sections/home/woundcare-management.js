@@ -2,7 +2,7 @@ import React from 'react'
 import { woundCareManagement } from '../../constants'
 import { heart } from '../../assets'
 import styles from '../../style'
-import TextCard from '../../components/TextCard'
+import TextCard from '../../components/text-card'
 
 const WoundCareManagement = () => {
   return (

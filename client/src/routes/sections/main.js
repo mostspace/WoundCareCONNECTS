@@ -3,9 +3,9 @@ import { Outlet } from 'react-router-dom'
 // Layouts
 import MainLayout from 'src/layouts/main'
 // Components
-// import { SplashScreen } from 'src/components/loading-screen'
+import { SplashScreen } from 'src/components/loading-screen';
 
-export const HomePage = lazy(() => import('src/pages/Home'));
+export const HomePage = lazy(() => import('src/pages/home'));
 
 const ContactPage = lazy(() => import('src/pages/ContactUs'));
 const Signin = lazy(() => import('src/pages/auth/login'));
@@ -14,7 +14,7 @@ export const mainRoutes = [
     {
         element: (
             <MainLayout>
-                <Suspense fallback={<div>loading...</div>}>
+                <Suspense fallback={<SplashScreen />}>
                     <Outlet />
                 </Suspense>
             </MainLayout>

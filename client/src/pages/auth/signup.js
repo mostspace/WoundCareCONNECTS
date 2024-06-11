@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Button from 'src/components/Button';
+import Button from 'src/components/button';
 import { logoWhite } from 'src/assets';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';

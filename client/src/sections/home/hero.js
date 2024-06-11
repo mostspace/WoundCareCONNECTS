@@ -1,5 +1,5 @@
 import styles from '../../style'
-import Button from '../../components/Button'
+import Button from '../../components/button'
 
 const Hero = () => {
   return (

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { close, logo, menu } from 'src/assets'
 import { navLinks } from 'src/constants'
 import { paths } from 'src/routes/paths'
-import Button from 'src/components/Button'
+import Button from 'src/components/button'
 import styles from 'src/style'
 import { Link } from 'react-router-dom';
 
