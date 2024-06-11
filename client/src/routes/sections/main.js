@@ -7,7 +7,7 @@ import { SplashScreen } from 'src/components/loading-screen';
 
 export const HomePage = lazy(() => import('src/pages/home'));
 
-const ServicesPage = lazy(() => import('src/pages/Services'));
+const ServicesPage = lazy(() => import('src/pages/services'));
 const ProductsPage = lazy(() => import('src/pages/products'));
 const AboutPage = lazy(() => import('src/pages/about-us'));
 const TestimonialsPage = lazy(() => import('src/pages/testimonials'));
