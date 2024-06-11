@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #ffffff -78.47%,
+    #00A4F4 500%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    to left, 
+    #00A4F4 0.89%, 
+    #60beee 17.23%, 
+    #88D8FF 42.04%, 
+    #88D8FF 55.12%, 
+    #60beee 71.54%, 
+    #00A4F4 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #e8f4fa -43.27%,
+    #e5f3fa -21.24%,
+    #92cfee 12.19%,
+    #58b9e9 40.82%,
+    #50b8ec 51.94%,
+    #00A4F4 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #e8f4fa -43.27%,
+    #e5f3fa -21.24%,
+    #92cfee 12.19%,
+    #58b9e9 40.82%,
+    #50b8ec 51.94%,
+    #00A4F4 90.29%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.text-card-container .text-card:last-child {
+  margin-right: 0px;
+}
+
+.text-card, .wc-card {
+  background: transparent;
+  border: 1px solid #00A4F4;
+}
+
+.text-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(100px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(200px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(300px);
+}
+
+
+
+
+/* Custom */
+.wc-text-primary {
+  color: #00A4F4;
+}
+
+.wc-bg-primary {
+  background-color: #00A4F4;
+}
+
+.wc-bg-light-primary {
+  background-color: #F2FAFF;
+}
+
+.nav-box-shadow {
+  box-shadow: 0 10px 30px 0 rgba(82,63,105,0.5);
+}
+
+.hero-section {
+  background-image: url('assets/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.wc-ul > li::marker {
+  color: #00A4F4 !important; /* Set the color of the marker to red */
+}
+
+.wc-toggle-menu {
+  filter: invert(38%) sepia(100%) saturate(5698%) hue-rotate(173deg) brightness(101%) contrast(100%);
+}
+
+.scrolled {
+  background-color: #ffffff; /* Change background color when scrolled */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+/* Begin::Custom TextField */
+.wc-input .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #00A4F4;
+}
+
+.wc-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #00A4F4;
+}
+
+.wc-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #00A4F4;
+}
+
+/* .wc-input .MuiInputLabel-root {
+  color: #00A4F4;
+}
+
+.wc-input .MuiInputLabel-root.Mui-focused {
+  color: #00A4F4;
+} */
+/* End::Custom TextField */
