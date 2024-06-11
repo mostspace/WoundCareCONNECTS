@@ -29,7 +29,6 @@ app.post('/login', async (req, res) => {
         return res.status(401).json({ error: "Invalid email" });
     }
 
-    console.log("Password: ", sanitizedPassword + " vs " + user.password);
     const isMatch = await bcrypt.compare(sanitizedPassword, user.password); 
     console.log("isMatch: ", isMatch);
     if (isMatch) {
@@ -49,8 +48,6 @@ app.post("/register", async (req, res) => {
   try {
     const sanitizedEmail = sanitizeHtml(email);
     const sanitizedPassword = sanitizeHtml(password);
-
-    // ... (Add validation for email and password format)
 
     const existingUser = await WoundcareModel.findOne({ email: sanitizedEmail });
     if (existingUser) {
