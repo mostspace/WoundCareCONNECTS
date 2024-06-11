@@ -17,7 +17,7 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
   },
   {
@@ -29,7 +29,7 @@ export const navLinks = [
     title: "Products",
   },
   {
-    id: "aboutus",
+    id: "about-us",
     title: "About us",
   },
   {
@@ -37,7 +37,7 @@ export const navLinks = [
     title: "Testimonials",
   },
   {
-    id: "faq",
+    id: "faqs",
     title: "FAQ",
   },
   {

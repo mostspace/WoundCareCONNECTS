@@ -1,12 +1,16 @@
-import React from 'react';
+import { Helmet } from "react-helmet-async";
 
-const ContactUs = () => {
+// Sections
+import { ContactView } from 'src/sections/contact/view';
+
+export default function ContactPage() {
   return (
-    <div className="contact-us">
-      <h1>Contact Us</h1>
-      {/* Add more content as needed */}
-    </div>
-  );
-};
+    <>
+      <Helmet>
+        <title>Contact Us</title>
+      </Helmet>
 
-export default ContactUs;
+      <ContactView />
+    </>
+  )
+}
