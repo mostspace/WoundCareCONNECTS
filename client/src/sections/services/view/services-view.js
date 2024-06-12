@@ -1,10 +1,22 @@
-import React from 'react';
+import styles from 'src/style'
+
+import ServicesHero from '../services-hero';
+import ServicesRange from '../services-range';
+import ServicesApproach from '../services-approach';
+import OurServiceArea from '../our-service-area';
 
 const ServicesView = () => {
   return (
-    <div className="about-us">
-      <h1>Services</h1>
-    </div>
+    <>
+      <div className={`${styles.paddingX} ${styles.flexStart} font-manrope`}>
+        <div className={`${styles.boxWidth}`}>
+          <ServicesHero />
+          <ServicesRange />
+          <ServicesApproach />
+          <OurServiceArea />
+        </div>
+      </div>
+    </>
   );
 };
 

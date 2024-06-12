@@ -1,8 +1,8 @@
 import React from 'react'
-import { woundCareManagement } from '../../constants'
-import { heart } from '../../assets'
-import styles from '../../style'
-import TextCard from '../../components/text-card'
+import { woundCareManagement } from 'src/constants'
+import { heart } from 'src/assets'
+import styles from 'src/style'
+import TextCard from 'src/components/text-card'
 
 const WoundCareManagement = () => {
   return (

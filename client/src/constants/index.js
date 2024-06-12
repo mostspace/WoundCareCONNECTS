@@ -160,6 +160,94 @@ export const benefitsOfOurProgram = [
   },
 ];
 
+// Services
+
+export const servicesRange = [
+  {
+    id: "servicesRange-1",
+    content: "Surgical wounds"
+  },
+  {
+    id: "servicesRange-2",
+    content: "Pressure ulcers/sores"
+  },
+  {
+    id: "servicesRange-3",
+    content: "Diabetic wounds/neuropathic wounds"
+  },
+  {
+    id: "servicesRange-4",
+    content: "Venous stasis ulcers"
+  },
+  {
+    id: "servicesRange-5",
+    content: "Arterial ulcers"
+  },
+  {
+    id: "servicesRange-6",
+    content: "Traumatic wounds"
+  },
+  {
+    id: "servicesRange-7",
+    content: "Burns"
+  },
+  {
+    id: "servicesRange-8",
+    content: "Non-healing wounds (wounds that won’t heal)"
+  },
+  {
+    id: "servicesRange-9",
+    content: "Slow-healing wounds"
+  },
+];
+
+export const servicesApproach = [
+  {
+    id: "servicesApproach-1",
+    content: "Development of individualized wound care plans"
+  },
+  {
+    id: "servicesApproach-2",
+    content: "Assessment for signs and symptoms of infection"
+  },
+  {
+    id: "servicesApproach-3",
+    content: "Dressing changes and wound care procedures"
+  },
+  {
+    id: "servicesApproach-4",
+    content: "Education for patients and caregivers on wound healing, infection prevention, complication management, and when to seek assistance"
+  },
+  {
+    id: "servicesApproach-5",
+    content: "Suture/staple removal and incisional care"
+  },
+  {
+    id: "servicesApproach-6",
+    content: "Evaluation of nutrition and hydration status"
+  },
+  {
+    id: "servicesApproach-7",
+    content: "Medication reviews"
+  },
+  {
+    id: "servicesApproach-8",
+    content: "Assessment for prevention and treatment support surfaces"
+  },
+  {
+    id: "servicesApproach-9",
+    content: "Provision of compression therapy and negative pressure wound therapy to enhance blood flow and expedite healing"
+  },
+  {
+    id: "servicesApproach-10",
+    content: "Debridement procedures to remove dead tissue and promote healing"
+  },
+  {
+    id: "servicesApproach-11",
+    content: "Addressing underlying issues that may impact wound healing"
+  },
+];
+
 export const features = [
   {
     id: "feature-1",

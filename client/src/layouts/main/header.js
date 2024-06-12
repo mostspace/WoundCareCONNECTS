@@ -1,15 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import { close, logo, menu } from 'src/assets'
-import { navLinks } from 'src/constants'
-import { paths } from 'src/routes/paths'
-import Button from 'src/components/button'
-import styles from 'src/style'
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { close, logo, menu } from 'src/assets';
+import { navLinks } from 'src/constants';
+import { paths } from 'src/routes/paths';
+import Button from 'src/components/button';
+import styles from 'src/style';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [toggle, setToggle] = useState(false);
-  const [activeMenuItem, setActiveMenuItem] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,8 +23,18 @@ const Header = () => {
     };
   }, []);
 
+  const setNavItemActive = (navId) => {
+    const cleanPath = location.pathname.slice(1);
+
+    if (cleanPath === "" && navId === "/") {
+      return 'nav-active';
+    }
+
+    return navId === cleanPath ? 'nav-active' : '';
+  }
+
   return (
-    <div className={`${styles.paddingX} ${styles.flexCenter} ${isScrolled ? 'scrolled nav-box-shadow fixed w-full z-[100] bg-white h-[50px]' : 'bg-white h-[120px]'}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter} ${isScrolled ? 'scrolled fixed w-full z-[100] bg-white h-[50px]' : 'bg-white h-[120px] nav-box-shadow'}`}>
       <div className={`${styles.boxWidth}`}>
         <nav className={`w-full flex justify-between items-center navbar ${isScrolled ? 'h-[50px]' : ''}`}>
           <Link to="/">
@@ -39,12 +48,8 @@ const Header = () => {
               >
                 <Link
                   to={nav.id}
-                  onClick={() => setActiveMenuItem(nav.id)}
-                  className={activeMenuItem === nav.id ? 'active' : ''}
+                  className={setNavItemActive(nav.id)}
                 >{nav.title}</Link>
-                {/* <a href={`${nav.id}`}>
-                  {nav.title}
-                </a> */}
               </li>
             ))}
           </ul>
@@ -77,4 +82,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
