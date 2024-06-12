@@ -1,6 +1,5 @@
 import React from 'react'
 import { servicesRangeImg } from 'src/assets'
-import styles from 'src/style'
 import { servicesRange } from '../../constants'
 
 const ServicesRange = () => {

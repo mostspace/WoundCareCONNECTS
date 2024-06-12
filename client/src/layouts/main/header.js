@@ -4,7 +4,7 @@ import { navLinks } from 'src/constants';
 import { paths } from 'src/routes/paths';
 import Button from 'src/components/button';
 import styles from 'src/style';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
