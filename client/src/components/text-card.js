@@ -3,8 +3,8 @@ import { quotes } from '../assets'
 
 const TextCard = ({ content, title }) => {
   return (
-    <div className='flex flex-col px-10 py-8 rounded-[20px] my-5 text-card'>
-      <h4 className='font-manrope font-semibold text-[20px] leading-[32px] wc-text-primary'>{title}</h4>
+    <div className='flex flex-col px-5 sm:px-10 py-8 rounded-[20px] sm:my-5 text-card'>
+      <h4 className='font-manrope font-semibold text-[20px] leading-[32px] wc-text-primary text-center'>{title}</h4>
       <p className='font-manrope font-normal text-[16px] leading-[32px] mt-5'>
         {content}
       </p>

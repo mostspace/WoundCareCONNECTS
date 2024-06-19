@@ -6,8 +6,8 @@ const OurServiceArea = () => {
   return (
     <section id='clients' className={`${styles.paddingY} ${styles.flexce} flex-col relative`}>
       <div className='w-full md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
-        <div className='flex h-[550px]'>
-            <img src={serviceMap} alt='Services' className='w-full h-full object-cover rounded-[16px]' />
+        <div className='flex'>
+            <img src={serviceMap} alt='Services' className='w-full' />
         </div>
         <div className='flex justify-center items-center mt-10'>
           <h2 className={`${styles.heading2} text-black text-center`}><span className='text-gradient'>Our Service Area</span> </h2>

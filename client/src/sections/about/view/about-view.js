@@ -1,10 +1,20 @@
-import React from 'react';
+import styles from 'src/style'
+
+import AboutHero from '../about-hero';
+import OurTeam from '../our-team';
+import PlanGoal from '../plan-goal';
 
 const AboutView = () => {
   return (
-    <div className="about-us">
-      <h1>About Us</h1>
-    </div>
+    <>
+      <div className={`${styles.paddingX} ${styles.flexStart} font-manrope`}>
+        <div className={`${styles.boxWidth}`}>
+          <AboutHero />
+          <OurTeam />
+          <PlanGoal />
+        </div>
+      </div>
+    </>
   );
 };
 

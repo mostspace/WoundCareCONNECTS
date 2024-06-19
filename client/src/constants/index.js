@@ -24,10 +24,6 @@ export const navLinks = [
     title: "About us",
   },
   {
-    id: "testimonials",
-    title: "Testimonials",
-  },
-  {
     id: "faqs",
     title: "FAQ",
   },
@@ -237,6 +233,161 @@ export const servicesApproach = [
   {
     id: "servicesApproach-11",
     content: "Addressing underlying issues that may impact wound healing"
+  },
+];
+
+// Products Page
+export const woundCareProducts = [
+  {
+    id: "product1",
+    content:
+      "Derived from the placenta, this tissue is rich in growth factors and proteins that can support wound healing by promoting cell growth and tissue repair.",
+    title: "Placental Tissue",
+  },
+  {
+    id: "product2",
+    content:
+      "Made from tissue sourced from a different species, typically processed to remove immunogenic components, xenografts provide a scaffold for new tissue growth and can help cover and protect wounds.",
+    title: "Xenograft Tissue",
+  },
+  {
+    id: "product3",
+    content:
+      "Refers to approaches that prioritize non-invasive or minimally invasive methods to manage wounds, aiming to promote healing while preserving as much healthy tissue as possible.",
+    title: "Conservative Wound Care",
+  },
+  {
+    id: "product4",
+    content:
+      "A tissue matrix derived from skin that has had its cellular components removed, leaving behind a scaffold of collagen and other extracellular matrix proteins. It supports tissue regeneration and can integrate into the patient's own tissue.",
+    title: "Acellular Dermis",
+  },
+  {
+    id: "product5",
+    content:
+      "Composed of fat cells, adipose tissue can be used in wound care for its regenerative properties, such as providing cushioning, promoting vascularization, and aiding in the healing process.",
+    title: "Adipose Tissue",
+  },
+  {
+    id: "product6",
+    content:
+      "Tissue harvested from the patient's own body, often from a donor site on the patient, and transplanted to the wound site. Autografts are ideal for their compatibility and ability to promote healing with minimal risk of rejection.",
+    title: "Autograft",
+  },
+  {
+    id: "product7",
+    content:
+      "Utilized in wound care to promote healing through increased circulation, reduced swelling, and enhanced tissue regeneration. Ultrasound waves penetrate tissues, stimulating cellular activity and aiding in the absorption of topical medications.",
+    title: "Ultrasound Therapy",
+  },
+  {
+    id: "product8",
+    content:
+      "Involves the use of water or water-based solutions to cleanse and promote healing in wounds. It helps to maintain a moist wound environment, which is conducive to healing, while also assisting in the removal of dead tissue and debris.",
+    title: "Hydra Therapy",
+  },
+];
+
+export const indicationCare = [
+  {
+    id: "indicationCare1",
+    content:
+      "The innovative collagen dressings are specifically designed to be applied directly onto wounds. These dressings harness the wound's own fluids to create a gentle gel, which promotes faster and more effective healing. Indicated for venous stasis ulcers, dehisced wounds, surgical wounds, diabetic ulcers, and pressure ulcers.",
+    title: "Collagen Dressings",
+  },
+  {
+    id: "indicationCare2",
+    content:
+      "The collagen powders consist of particulate collagen that can be poured directly into the wound bed. With its high surface area, the powder facilitates gel formation across all contact points, aiding in accelerated and efficient healing. Indicated for venous stasis ulcers, dehisced wounds, surgical wounds, diabetic ulcers, and pressure ulcers.",
+    title: "Collagen Powders",
+  },
+];
+
+export const woundTypes = [
+  {
+    id: "woundType1",
+    content:
+      "Wounds that require removal of necrotic or non-viable tissue to promote healing.",
+    title: "Debridement Wounds",
+  },
+  {
+    id: "woundType2",
+    content:
+      "Wounds resulting from surgery that have become infected and require specialized treatment.",
+    title: "Infected Surgical Wounds",
+  },
+  {
+    id: "woundType3",
+    content:
+      "Wounds that have reopened or separated along the surgical incision, needing careful management to facilitate closure and healing.",
+    title: "Dehisced Surgical Wounds",
+  },
+];
+
+// About Us
+
+export const ourTeam = [
+  {
+    id: "ourTeam-1",
+    content: "Registered Nurses"
+  },
+  {
+    id: "ourTeam-2",
+    content: "Certifies Wound Specialist Physicians"
+  },
+  {
+    id: "ourTeam-3",
+    content: "Occupational Therapists"
+  },
+];
+
+export const planGoal = [
+  {
+    id: "planGoal-1",
+    content: "Accelerated healing times"
+  },
+  {
+    id: "planGoal-2",
+    content: "Improved treatment outcomes"
+  },
+  {
+    id: "planGoal-3",
+    content: "Reduced infection rates"
+  },
+  {
+    id: "planGoal-4",
+    content: "Alleviated pain"
+  },
+  {
+    id: "planGoal-5",
+    content: "Prevention of new wounds or complications"
+  },
+  {
+    id: "planGoal-6",
+    content: "Enhanced mobility"
+  },
+  {
+    id: "planGoal-7",
+    content: "Empowerment of you and your caregiver to manage wound care independently"
+  },
+  {
+    id: "planGoal-8",
+    content: "Minimization of unnecessary hospital visits"
+  },
+];
+
+export const ourSupport = [
+  {
+    id: "ourSupport1",
+    content:
+      "SNF at Home is designed to support patients in their recovery journey within the comfort of their own home. This program offers an enhanced level of support for those needing additional care, bridging the gap between traditional Home Health services and a hospital or inpatient facility. By providing comprehensive care in a familiar environment, SNF at Home ensures patients can recover safely and comfortably.",
+    title: "Home Health Support: Transitioning and Ongoing Care",
+  },
+  {
+    id: "ourSupport2",
+    content:
+      "Our Home Health services offer vital assistance for individuals requiring continued medical support following discharge from a hospital or inpatient facility. Whether it's part of their care plan for an illness, chronic health condition, or injury, our Home Health services facilitate a seamless transition back to home or provide ongoing medical care while allowing patients to remain in their familiar living environment.",
+    title: "SNF at Home: Bridging the Gap",
   },
 ];
 
