@@ -5,10 +5,10 @@ import styles, { layout } from '../../style'
 
 const BenefitsOfOurProgram = () => {
   return (
-    <section id='product' className={`md:flex wc-card rounded-[20px] px-5 mb-20 gap-10`}>
-        <div className="pt-16 w-full lg:w-[50%] grid grid-rows-[auto_1fr] items-end">
+    <section id='product' className={`md:flex wc-card rounded-[20px] px-3 gap-10`}>
+        <div className="pt-5 sm:pt-16 w-full lg:w-[50%] grid grid-rows-[auto_1fr] items-end">
             <div className='flex justify-center'>
-                <h2 className={`${styles.heading2} text-black pb-10`}><span className='text-gradient'>Benefits Of<br/><span className='lg:ml-20'>Our Program</span></span></h2>
+                <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}><span className='text-gradient'>Benefits Of<br/><span className='lg:ml-20'>Our Program</span></span></h2>
             </div>
             <img
             src={customerAndDoctor}

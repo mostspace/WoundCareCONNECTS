@@ -32,12 +32,12 @@ const ProductCard = ({ content, title, id }) => {
       imageSrc = ''; // Default to an empty string if no match
   }
   return (
-    <div className='flex flex-col px-5 py-5 rounded-[20px] sm:my-5 text-card'>
+    <div className='flex flex-col gap-[20px] px-5 py-5 rounded-[20px] sm:my-5 text-card'>
       <div className='flex justify-center items-center h-[150px] w-full'>
         <img src={imageSrc} alt={title} className='h-full' />
       </div>
       <h4 className='font-manrope font-semibold text-[20px] leading-[32px] wc-text-primary text-center'>{title}</h4>
-      <p className='font-manrope font-normal text-[16px] leading-[32px] mt-5'>
+      <p className='font-manrope font-normal text-[16px] leading-[32px]'>
         {content}
       </p>
     </div>

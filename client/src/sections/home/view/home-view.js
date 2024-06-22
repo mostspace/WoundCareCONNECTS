@@ -13,12 +13,12 @@ export default function HomeView() {
         <>
             <Hero/>  
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
-                <div className={`${styles.boxWidth}`}>
-                <WoundCareManagement/>
-                <GetToKnowUs/>
-                <ServicesAndTreatments/>
-                <WoundCareDressings/>
-                <BenefitsOfOurProgram/>
+                <div className={`${styles.boxWidth} flex flex-col gap-[32px] sm:gap-[48px] py-[70px]`}>
+                    <WoundCareManagement/>
+                    <GetToKnowUs/>
+                    <ServicesAndTreatments/>
+                    <WoundCareDressings/>
+                    <BenefitsOfOurProgram/>
                 </div>
             </div>
         </>

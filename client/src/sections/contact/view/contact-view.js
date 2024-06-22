@@ -1,10 +1,16 @@
-import React from 'react';
+import styles from 'src/style'
+
+import ContactForm from '../contact-form';
 
 const ContactView = () => {
   return (
-    <div className="contact-us">
-      <h1>Contact Us</h1>
-    </div>
+    <>
+      <div className={`${styles.paddingX} ${styles.flexStart} font-manrope`}>
+        <div className={`${styles.boxWidth} py-[48px] sm:py-[70px]`}>
+          <ContactForm />
+        </div>
+      </div>
+    </>
   );
 };
 

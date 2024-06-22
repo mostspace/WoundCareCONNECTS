@@ -6,10 +6,10 @@ import ProductCard from 'src/components/product-card'
 
 const WoundCareProducts = () => {
   return (
-    <section id='clients' className={`${styles.paddingY} ${styles.flexce} flex-col relative`}>
-      <div className='w-full md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
+    <section id='clients' className={`flex flex-col gap-[20px] relative`}>
+      <div className='w-full flex flex-col gap-[48px] sm:mb-16 mb-6 relative z-[1]'>
         <div className='flex justify-center items-center md:gap-16'>
-          <h2 className={`${styles.heading2} text-black text-center`}><span className='text-gradient'> Wound Care</span> offers the following products </h2>
+          <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}><span className='text-gradient'> Wound Care</span> offers the following products </h2>
         </div>
         <div className='w-full md:mt-6'>
           <p className={`${styles.paragraph} text-left w-full text-black`}>
@@ -28,7 +28,7 @@ const WoundCareProducts = () => {
           </div>
         </div>
       </div>    
-      <div className='w-full md:mt-6'>
+      <div className='w-full mt-6'>
           <p className={`${styles.paragraph} text-left w-full text-black`}>
             These therapies and materials collectively contribute to comprehensive wound care management, catering to diverse patient needs and promoting effective healing outcomes.
           </p>  

@@ -6,10 +6,10 @@ import TextCard from 'src/components/text-card'
 
 const WoundCareManagement = () => {
   return (
-    <section id='clients' className={`${styles.paddingY} ${styles.flexce} flex-col relative`}>
+    <section id='clients' className={`${styles.flexce} flex-col relative`}>
       <div className='w-full md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
         <div className='flex justify-center items-center md:gap-16'>
-          <h2 className={`${styles.heading2} text-black text-center`}><span className='text-gradient'> Wound Care</span> Management</h2>
+          <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center pb-5`}><span className='text-gradient'>Wound Care</span> Management</h2>
           <img src={heart} alt="Heart" className='hidden sm:block'/>
         </div>
         <div className='w-full md:mt-6'>

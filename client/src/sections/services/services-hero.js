@@ -7,7 +7,7 @@ const ServicesHero = () => {
     <section id='clients' className={`${styles.paddingY} ${styles.flexce} flex-col relative`}>
       <div className='w-full md:flex-row flex-col relative z-[1]'>
         <div className='flex justify-center items-center'>
-          <h2 className={`${styles.heading2} text-black text-center`}>Discover Our Home-Based<span className='text-gradient'> Wound Care </span> Services</h2>
+          <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}>Discover Our Home-Based<span className='text-gradient'> Wound Care </span> Services</h2>
         </div>
         <div className='w-full my-8'>
           <p className={`${styles.paragraph} text-center w-full text-black`}>

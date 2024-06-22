@@ -5,12 +5,12 @@ import { servicesApproach } from '../../constants'
 
 const ServicesApproach = () => {
   return (
-    <section id='serviceRange' className={`mb-10 h-full`}>
-        <h2 className={`${styles.heading2} text-black py-10`}>Our personalized approach to<span className='text-gradient'> Wound Care </span>includes:</h2>
-        <div className='sm:flex gap-20 justify-between my-10'>
+    <section id='serviceRange' className="flex flex-col gap-[48px]">
+        <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}>Our personalized approach to<span className='text-gradient'> Wound Care </span>includes:</h2>
+        <div className='sm:flex gap-[100px] justify-between my-10'>
             <div className='w-full grid sm:grid-rows-2 gap-8 my-5 ss:my-0'>
-                <img src={servicesApproachImg1} alt='Get to know us' className='w-full h-[200px] ss:h-full rounded-[16px]' />
-                <img src={servicesApproachImg2} alt='Get to know us' className='w-full h-[200px] ss:h-full rounded-[16px]' />
+                <img src={servicesApproachImg1} alt='Get to know us' className='w-full h-[200px] sm:h-full rounded-[16px]' />
+                <img src={servicesApproachImg2} alt='Get to know us' className='w-full h-[200px] sm:h-full rounded-[16px]' />
             </div>
             <div className='w-full flex justify-start items-center pb-10 pl-5'>
                 <ul className='list-disc text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px] wc-ul'>

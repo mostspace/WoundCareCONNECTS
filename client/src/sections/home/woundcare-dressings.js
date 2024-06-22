@@ -1,15 +1,15 @@
 import React from 'react'
-import { woundCareDressings } from '../../constants'
-import { blueCross } from '../../assets'
-import styles from '../../style'
+import { woundCareDressings } from 'src/constants'
+import { blueCross } from 'src/assets'
+import styles from 'src/style'
 
 const WoundCareDressings = () => {
   return (
-    <section id='clients' className={`${styles.paddingY} ${styles.flexce} flex-col relative px-5 ss:px-16`}>
+    <section id='clients' className={`flex-col relative px-5 ss:px-16`}>
       <div className='w-full md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
-        <div className='flex justify-center items-center mb-20 gap-10'>
+        <div className='flex justify-center items-center mb-5 sm:mb-20 gap-10'>
             <img src={blueCross} alt="" className='hidden sm:block' />
-            <h2 className={`${styles.heading2} text-black text-center`}><span className='text-gradient'> Wound Care</span> Dressings</h2>
+            <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}><span className='text-gradient'> Wound Care</span> Dressings</h2>
         </div>
         <div className='w-full md:mt-6'>
           <p className={`text-[18px] ss:text-[24px] text-left w-full text-black`}>

@@ -10,7 +10,7 @@ const OurServiceArea = () => {
             <img src={serviceMap} alt='Services' className='w-full' />
         </div>
         <div className='flex justify-center items-center mt-10'>
-          <h2 className={`${styles.heading2} text-black text-center`}><span className='text-gradient'>Our Service Area</span> </h2>
+          <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}><span className='text-gradient'>Our Service Area</span> </h2>
         </div>
         <div className='w-full my-6'>
           <p className={`${styles.paragraph} text-center w-full text-black`}>

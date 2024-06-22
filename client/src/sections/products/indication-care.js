@@ -5,12 +5,12 @@ import TextCard from 'src/components/text-card'
 
 const IndicationDrivenCare = () => {
   return (
-    <section id='clients' className={`${styles.paddingY} ${styles.flexce} flex-col relative`}>
-      <div className='w-full md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
+    <section id='clients' className={`${styles.flexce} flex-col relative`}>
+      <div className='w-full flex flex-col sm:mb-16 mb-6 relative z-[1] gap-[48px]'>
         <div className='flex justify-center items-center md:gap-16'>
-          <h2 className={`${styles.heading2} text-black text-center`}><span className='text-gradient'>Indication-Driven Care</span></h2>
+          <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}><span className='text-gradient'>Indication-Driven Care</span></h2>
         </div>
-        <div className='w-full md:mt-6'>
+        <div className='w-full'>
           <p className={`${styles.paragraph} text-left w-full text-black`}>
             Wound Care Connects offer a series of pre-configured pouches containing wound care components tailored to specific indications for surgically created wounds. These sealed pouches allow healthcare providers to prescribe patients with precise combinations of primary and secondary dressings needed for daily changes. Organized into three primary categories, this approach streamlines care and product selection to enhance wound care management. Packages are conveniently delivered directly to the patient’s permanent address in quantities predetermined by the healthcare provider.
           </p>  
@@ -27,7 +27,7 @@ const IndicationDrivenCare = () => {
           </div>
         </div>
       </div>    
-      <div className='w-full md:mt-6'>
+      <div className='w-full mt-6'>
           <p className={`${styles.paragraph} text-left w-full text-black`}>
             These products are tailored to address specific wound types, ensuring optimal healing outcomes for patients.
           </p>  
