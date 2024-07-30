@@ -1,0 +1,31 @@
+import React from 'react'
+
+// Assets
+import { servicesApproachImg1, servicesApproachImg2 } from 'src/assets'
+
+// Constant
+import { servicesApproach } from 'src/constants'
+
+const ServicesApproach = () => {
+  return (
+    <section id='serviceRange' className="flex flex-col gap-[48px]">
+        <h2 className={`text-[32px] sm:text-[40px] font-manrope font-semibold text-black text-center`}>Our personalized approach to<span className='text-gradient'> Wound Care </span>includes:</h2>
+        <div className='sm:flex gap-[100px] justify-between my-10'>
+            <div className='w-full grid sm:grid-rows-2 gap-8 my-5 ss:my-0'>
+                <img src={servicesApproachImg1} alt='Get to know us' className='w-full h-[200px] sm:h-full rounded-[16px]' />
+                <img src={servicesApproachImg2} alt='Get to know us' className='w-full h-[200px] sm:h-full rounded-[16px]' />
+            </div>
+            <div className='w-full flex justify-start items-center pb-10 pl-5'>
+                <ul className='list-disc text-[20px] leading-[30px] md:leading-[40px] lg:leading-[50px] wc-ul'>
+                    {servicesApproach.map((item) => (
+                        <li key={item.id}>{item.content}</li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+        <p className='text-[20px] leading-[40px] text-gray-600'>At Wound Care Connects we are committed to delivering exceptional wound care services with compassion, expertise, and dedication, empowering our patients on their journey to optimal health and well-being.</p>
+    </section>
+  )
+}
+
+export default ServicesApproach
